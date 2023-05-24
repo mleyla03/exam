@@ -3,24 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    overflow-x: hidden;
+}
 .home{
     background-image: url(https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp);
     width: 100%;
-    height: 90vh;
-    margin-top: -46px;
+   
+    height: 120vh;
+
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-repeat: no-repeat;
 }
-.rights{
-    background-image: url(https://preview.colorlib.com/theme/robotics/img/banner-img.png.webp);
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-}
+
 .paragraf{
     color: white;
+}
+.imgfluid {
+    max-width: 100%;
+    height: auto;
 }
 
 .one{
@@ -51,3 +55,15 @@
   background: transparent;
   color: #fff !important;
 }
+@media (max-width:992px) {
+    .home {
+      flex-direction:column;
+    }
+    .paragraf{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+  }

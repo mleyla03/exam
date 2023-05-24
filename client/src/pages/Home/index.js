@@ -1,9 +1,12 @@
 import React from 'react'
 import Globally from '../Globally'
 import Made from '../Made'
-
+import Feature from '../Feauture'
 
 import Style from "./index.module.css"
+import Logos from '../Logos'
+import News from '../News'
+import Robotics from '../Robotics'
 const Home = () => {
   return (
     <>
@@ -15,12 +18,15 @@ const Home = () => {
           <button className={Style.buttons}>View Details</button>
         </div>
         <div className={Style.rights}>
-
+           <img className={Style.imgfluid} src="https://preview.colorlib.com/theme/robotics/img/banner-img.png.webp" alt=""/>
         </div>
     </div>
-
+<Robotics/>
    <Globally/>
    <Made/>
+   <Feature/>
+   <Logos/>
+   <News/>
     </>
   )
 }

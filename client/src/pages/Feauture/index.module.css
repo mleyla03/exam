@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.feature{
+    height: 85vh;
+    margin-top: 80px;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp);
+}
+.fea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   color: white;
+}
+.fea h1{
+    margin-top: 40px;
+   
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.footernav li {
+    margin-top: 8px;
+}
+.footernav li a {
+    color: #fff;
+}
+
+
+.p {
+    margin-top: 0;
+    color: white;
+    margin-bottom: 1rem;
+}
+.forminline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.input {
+    line-height: 38px;
+    border: none;
+    background: #fff;
+    font-weight: 300;
+    border-radius: 20px;
+    color: #777;
+    padding-left: 20px;
+    width: 100%;
+}
+.fea{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   color: white;
+}
+button{
+    background-color: #8a90ff;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.instafeed{
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+.instafeed li{
+    width: 25%;
+    
+}
+
+.forms{
+    display: flex;
+  margin-right: 3px;
+}
+.single h6{
+    margin-left: 25px;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer{
+    padding-top: 100px;
+   height: 500px;
+    background-size: cover;
+    background-image: url(https://preview.colorlib.com/theme/robotics/img/footer-bg.jpg.webp);
+}
+ h6 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
